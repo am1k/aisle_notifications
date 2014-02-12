@@ -1,0 +1,197 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" charset="">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="src/style-popover.css" type="text/css">
+    <script src="src/perfect-scrollbar.js"></script>
+    <script src="src/jquery.mousewheel.js"></script>
+    <script>
+    $(document).ready(function ($) {
+    $('.list-popover').perfectScrollbar({
+    wheelSpeed: 20,
+    wheelPropagation: false
+    });
+    });
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo"><a href="#"><img src="img/logo.png"></a></div>
+        <ul class="button-list">
+            <li class="nav-item"><a href="#"><img src="img/user.png"><span class="circle">5</span></a>
+            <div class="drop-popover">
+                <ul class="list-popover">
+                    <li><img src="img/stark.jpg" alt=""> <h3>Ashe</h3>
+                    <div class="drop-button">
+                        <button class="button-first">Accept</button>
+                        <button class="button-second">Decline</button>
+                    </div>
+                    </li>
+                    <li><img src="img/stark.jpg" alt=""> <h3>Ashe</h3>
+                        <div class="drop-button">
+                            <button class="button-first">Accept</button>
+                            <button class="button-second">Decline</button>
+                        </div>
+                    </li>
+                    <li><img src="img/stark.jpg" alt=""> <h3>Ashe</h3>
+                        <div class="drop-button">
+                            <button class="button-first">Accept</button>
+                            <button class="button-second">Decline</button>
+                        </div>
+                    </li>
+                    <li><img src="img/stark.jpg" alt=""> <h3>Ashe</h3>
+                        <div class="drop-button">
+                            <button class="button-first">Accept</button>
+                            <button class="button-second">Decline</button>
+                        </div>
+                    </li>
+                    <li><img src="img/stark.jpg" alt=""> <h3>Ashe</h3>
+                        <div class="drop-button">
+                            <button class="button-first">Accept</button>
+                            <button class="button-second">Decline</button>
+                        </div>
+                    </li>
+                </ul>
+            <footer class="drop-popover-footer">
+                <a href="#">See all Invites</a>
+            </footer>
+            </div>
+            </li>
+            <li class="nav-item"><a href="#"><img src="img/message.png"><span class="circle">6</span></a>
+                <div class="drop-popover-message">
+                    <ul class="list-popover">
+                        <li><img src="img/stark.jpg" alt="">
+                            <p> <b>Able</b> Just viewed your profile.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Sarath</b> declined your request to connect.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p>Yaht! <b>Sarath</b> and You are connected. </p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Nansy</b> just viewed your profile.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Road</b> declined your request to connect.</p>
+                        </li>
+                    </ul>
+                    <footer class="drop-popover-footer">
+                        <a href="#">See all Invites</a>
+                    </footer>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#"><img src="img/bell.png"><span class="circle">12</span></a>
+                <div class="drop-popover-bell">
+                    <ul class="list-popover">
+                        <li><img src="img/stark.jpg" alt="">
+                            <p> <b>Able</b> Just viewed your profile.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Sarath</b> declined your request to connect.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p>Yaht! <b>Sarath</b> and You are connected. </p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Nansy</b> just viewed your profile.</p>
+                        </li>
+                        <li><img src="img/stark.jpg" alt="">
+                            <p><b>Road</b> declined your request to connect.</p>
+                        </li>
+                    </ul>
+                    <footer class="drop-popover-footer">
+                        <a href="#">See all Invites</a>
+                    </footer>
+                </div>
+            </li>
+            </li>
+            <li class="nav-item"><p>Able</p><a href="#"><img src="img/arrow.png"></a>
+                <div class="drop-popover-able">
+                    <ul>
+                        <li>Profile</li>
+                        <li>Edit</li>
+                        <li>Logout</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="nav-menu">
+            <ul class="menu">
+                <li class="menu-item"><a href="#">Find</a> </li>
+                <li class="menu-item"><a href="#">Bookmarks</a></li>
+                <li class="menu-item"><a href="#">Connections</a></li>
+                <li class="menu-item"><a href="#">Notifications</a></li>
+                <li class="menu-item"><a href="#">Messages</a></li>
+                <li class="menu-item"><a href="#">Invites</a></li>
+            </ul>
+            <div id="search">
+                <input id="searchbox" type="text" placeholder="Search By ID" autocomplete="off" >
+            </div>
+        </div>
+    </div>
+    <div id="main-content">
+        <ul class="event">
+            <li class="incoming"><img src="img/stark.jpg" alt=""><p> <b>Able</b> Just viewed your profile.</p> <span class="time">22<sup><small>th</small></sup> Nov 2013 | 12:55 pm</span> </li>
+            <li class="incoming"><img src="img/wolf.jpg" alt=""><p><b>Sarath</b> declined your request to connect.</p> <span class="time">21<sup><small>th</small></sup> Nov 2013 | 2:35 pm</span> </li>
+            <li><img src="img/wolf.jpg" alt=""><p>Yaht! <b>Sarath</b> and You are connected. </p><span class="time">20<sup><small>th</small></sup> Nov 2013 | 4:35 pm</span> </li>
+            <li><img src="img/imadeface.jpg" alt=""><p><b>Nansy</b> just viewed your profile.</p> <span class="time">13<sup><small>th</small></sup> Nov 2013 | 7:35 pm</span> </li>
+            <li><img src="img/mark.jpg" alt=""><p><b>Road</b> declined your request to connect.</p> <span class="time">12<sup><small>th</small></sup> Nov 2013 | 5:35 am</span> </li>
+            <li class="incoming"><img src="img/stark.jpg" alt=""><p> <b>Able</b> Just viewed your profile.</p> <span class="time">22<sup><small>th</small></sup> Nov 2013 | 12:55 pm</span> </li>
+            <li class="incoming"><img src="img/wolf.jpg" alt=""><p><b>Sarath</b> declined your request to connect.</p> <span class="time">21<sup><small>th</small></sup> Nov 2013 | 2:35 pm</span> </li>
+            <li><img src="img/wolf.jpg" alt=""><p>Yaht! <b>Sarath</b> and You are connected. </p><span class="time">20<sup><small>th</small></sup> Nov 2013 | 4:35 pm</span> </li>
+            <li><img src="img/imadeface.jpg" alt=""><p><b>Nansy</b> just viewed your profile.</p> <span class="time">13<sup><small>th</small></sup> Nov 2013 | 7:35 pm</span> </li>
+            <li><img src="img/mark.jpg" alt=""><p><b>Road</b> declined your request to connect.</p> <span class="time">12<sup><small>th</small></sup> Nov 2013 | 5:35 am</span> </li>
+        </ul>
+        <div class="pagination">
+            <ul class="page">
+                <li><span class="left-arrow"><a href="#"><img src="img/arrow-left.png"></a> </span></li>
+                <li><a href="#">1</a> </li>
+                <li><a href="#">2</a> </li>
+                <li><a href="#">3</a> </li>
+                <li><a href="#">4</a> </li>
+                <li><a href="#">5</a> </li>
+                <li><span class="right-arrow"><a href="#"><img src="img/arrow-right.png"></a></span></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="promo-box">
+            <img src="img/settings-alt.png"> <b>How it Works</b> <br>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velft auctor akasde</p>
+        </div>
+        <div class="promo-box">
+            <img src="img/users-box.png"><b> How it Works</b> <br>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velft auctor akasde</p>
+        </div>
+        <div class="promo-box">
+            <img src="img/note-book.png"><b> How it Works</b> <br>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velft auctor akasde</p>
+        </div>
+        <div class="footer-bottom">
+            <ul class="footer-nav">
+                <li><a href="#"> Terms</a></li>
+                <li><a href="#"> Privacy</a></li>
+                <li><a href="#"> Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <ul class="footer-icons">
+                    <li><a href="#"><img src="img/facebook.png"> </a> </li>
+                    <li><a href="#"><img src="img/twitter.png"> </a> </li>
+                    <li><a href="#"><img src="img/pinterest.png"> </a> </li>
+                    <li><a href="#"><img src="img/linked-in.png"> </a> </li>
+                    <li><a href="#"><img src="img/g+.png"> </a> </li>
+                    <li><a href="#"><img src="img/instagram.png"> </a> </li>
+                    <li><a href="#"><img src="img/youtube.png"> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

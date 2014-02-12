@@ -1,0 +1,15 @@
+.drop-popover .ps-container .ps-scrollbar-y-rail,
+.drop-popover-message .ps-container .ps-scrollbar-y-rail,
+.drop-popover-bell .ps-container .ps-scrollbar-y-rail {
+    width: 4px;
+}
+.drop-popover .ps-container .ps-scrollbar-y,
+.drop-popover-message .ps-container .ps-scrollbar-y,
+.drop-popover-bell .ps-container .ps-scrollbar-y{
+    width: 4px;
+}
+.drop-popover .ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail,
+.drop-popover-message .ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail,
+.drop-popover-bell .ps-container:hover .ps-scrollbar-y-rail, .ps-container.hover .ps-scrollbar-y-rail {
+    opacity: 1;
+}
