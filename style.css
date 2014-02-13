@@ -241,6 +241,7 @@ body {
     border-bottom: 1px solid #bfbfbf;
     padding-bottom: 22px;
     overflow: hidden;
+    font-weight: 700;
 }
 .connections:hover .drop-popover,
 .messages:hover .drop-popover-message,
@@ -249,7 +250,6 @@ body {
     display: block;
 }
 .menu {
-    width: 585px;
     float: left;
     margin-top: 5px;
 }
