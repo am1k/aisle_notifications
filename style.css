@@ -33,27 +33,24 @@ body {
 .connections a {
     display: block;
     position: relative;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvklEQVQ4y7WRQQrCMBREgz1DweC6dC05hKBeoaueL6ALexxXpXEnxXXV+TIpEkJJK354EKYzkyZRKjLGmAJY0BNZFyplYCzBHbwCRCtTCiwDDdCkoWZTCnqa9ZemqT1SCj6/nKr/pSB2hPWcI/hLvDC44Xr6EvExA3twijyh50xPFoaP4DoRDBHvwYcr8AQDd6/BFuRgRXJqNT0DM5UUOLbuVOKIl5nbWKBmDgtaWXQ/FHRjwUKc4rO4BeFWsm9wgLvXWqRBaQAAAABJRU5ErkJggg==");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background: url("img/sprite-image.png") no-repeat top left;
+    background-position: -132px 0;
     width: 16px;
     height: 16px;
 }
 .messages a {
     display: block;
     position: relative;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+0lEQVQ4EZXBsSqFARwH0P/t1k0yGyxKYVCWsyCzvIInkLJaJYMdm8w3opR34AG8A9d0y8TA90NRkrqfc+onLKOPAYIgCAboY6V+QxfHCIIgCIIgCIJjdOsbDhG84ADz6NUX9DCPA7wgOKpPWEKDZ6zWCFjFMxosF84Q7FVL2EdwXrhHMFstYRbBQyEIxqol9BC8FR4RzFVLmEYwKFwh2K6WsIPgsrCO4BGTNQIW8YRgrT6hj+AOC/UHTGALQwT9+oYxXCB4qw/YwhBDDNEgCK4xXr8hCDbRIAiCV9xgA536C4KgQXCCGUyhW6MgCIJTdOo/cIsBdtGpFt4BQhGolCZl4nkAAAAASUVORK5CYII=");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background: url("img/sprite-image.png") no-repeat top left;
+    background-position: -66px 0;
     width: 16px;
     height: 16px;
 }
 .bells a {
     display: block;
     position: relative;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVQ4y6XRMU4DMRCFYRerTYOi9DnGd4uUe4DcIFwSpC1DmYQWkQPQQGWaWeSgtUPISNO89/zPWJPSr0KPR4z4iB5D61OrsMYeudJ7rGuP++LxCQOW0UNoGS9YzAF2EThgNeOvwsvYzQHGMIfGF4fIjHPmV5jLBuAhMp9zZkZOV6qauwuA7lYAulLcThf4A2C6xLacfrwQ24Bp2BFdKZwu1qoDOrz+DCxW+k8fEp7uADy3Vn0vgud0a2GDM96wqeW+AW9KqQ7Q3LtlAAAAAElFTkSuQmCC");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background: url("img/sprite-image.png") no-repeat top left;
+    background-position: 0 0;
     width: 16px;
     height: 16px;
 }
@@ -466,4 +463,148 @@ body {
     width: 100%;
     padding-top: 15px;
     margin-top: 19px;
+}
+@media only screen and (max-width: 800px)and ( min-width: 640px) {
+    #wrapper  {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #header {
+        width: 100%;
+    }
+    .menu {
+        margin: 0 auto;
+        float: none;
+        overflow: hidden;
+    }
+    #search {
+        margin: 0 auto;
+        float: none;
+        width: 250px;
+        overflow: hidden;
+        margin-top: 22px;
+    }
+    .nav-menu {
+        height: 70px;
+    }
+    .search-box h3 {
+        position: relative;
+    }
+    .search-box ul {
+        position: relative;
+    }
+    #footer {
+        width: 100%;
+    }
+    .boxes{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .boxes p {
+        float: none;
+        padding-top: 40px;
+    }
+    .boxes:nth-of-type(3) {
+        float: left;
+    }
+    .title-result .customSelect {
+        float: none;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 639px) and ( min-width: 600px) {
+    #wrapper  {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #header {
+        width: 100%;
+    }
+    .menu {
+        margin: 0 auto;
+        float: none;
+        overflow: hidden;
+    }
+    #search {
+        margin: 0 auto;
+        float: none;
+        width: 250px;
+        overflow: hidden;
+        margin-top: 22px;
+    }
+    .nav-menu {
+        height: 70px;
+    }
+    .search-box h3 {
+        position: relative;
+    }
+    .search-box ul {
+        position: relative;
+    }
+    #footer {
+        width: 100%;
+    }
+    .boxes{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .boxes p {
+        float: none;
+        padding-top: 40px;
+    }
+    .boxes:nth-of-type(3) {
+        float: left;
+    }
+    .title-result .customSelect {
+        float: none;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 599px) and ( min-width: 400px) {
+    #wrapper  {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #header {
+        width: 100%;
+    }
+    .menu {
+        margin: 0 auto;
+        float: none;
+        overflow: hidden;
+    }
+    #search {
+        margin: 0 auto;
+        float: none;
+        width: 250px;
+        overflow: hidden;
+        margin-top: 22px;
+    }
+    .nav-menu {
+        height: 70px;
+    }
+    .search-box h3 {
+        position: relative;
+    }
+    .search-box ul {
+        position: relative;
+    }
+    #footer {
+        width: 100%;
+    }
+    .boxes{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .boxes p {
+        float: none;
+        padding-top: 40px;
+    }
+    .boxes:nth-of-type(3) {
+        float: left;
+    }
+    .title-result .customSelect {
+        float: none;
+        padding-top: 0;
+    }
 }
